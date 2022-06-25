@@ -23,27 +23,20 @@
     "prettier"
   ],
   "rules": {
-    "@typescript-eslint/camelcase":"off",
+    "@typescript-eslint/camelcase": "off",
     "prettier/prettier": "error",
     "class-methods-use-this": "off",
     "no-useless-constructor": "off",
     "camelcase": "off",
     "new-cap": "off",
-    "@typescript-eslint/no-unused-vars": ["error", {
-      "argsIgnorePattern": "_"
-    }],
-      "@typescript-eslint/naming-convention": [
-        "error",
-        {
-          "selector": "interface",
-          "format": ["PascalCase"],
-          "custom": {
-            "regex": "^I[A-Z]",
-            "match": true
-          }
-        }
-      ],
-    "import/extensions":[
+    "import/prefer-default-export": "off",
+    "@typescript-eslint/no-unused-vars": [
+      "error",
+      {
+        "argsIgnorePattern": "_"
+      }
+    ],
+    "import/extensions": [
       "error",
       "ignorePackages",
       {

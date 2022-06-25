@@ -7,7 +7,7 @@ import cors from 'cors';
 import { errors } from 'celebrate';
 import routes from './routes';
 
-import AppError from './app/errors/AppError';
+import AppError from './errors/AppError';
 
 class App {
   public express: express.Application;
